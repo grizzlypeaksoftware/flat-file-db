@@ -1,4 +1,3 @@
-```markdown
 # FlatFileDB
 
 FlatFileDB is a simple Node.js module for a flat-file database. It uses JSON files to store data and provides basic CRUD (Create, Read, Update, Delete) operations.
@@ -107,4 +106,3 @@ try {
 ## License
 
 This project is licensed under the MIT License.
-```
