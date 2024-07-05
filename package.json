@@ -1,5 +1,5 @@
 {
-  "name": "flat-file-db",
+  "name": "node-flat-file-db",
   "version": "1.0.0",
   "description": "A simple flat-file database module for Node.js",
   "main": "db.js",
