@@ -1,12 +1,25 @@
 {
   "name": "flat-file-db",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A simple flat-file database module for Node.js",
+  "main": "db.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grizzlypeaksoftware/flat-file-db.git"
+  },
+  "keywords": [
+    "database",
+    "flat-file",
+    "json",
+    "nodejs"
+  ],
+  "author": "Shane Larson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grizzlypeaksoftware/flat-file-db/issues"
+  },
+  "homepage": "https://github.com/grizzlypeaksoftware/flat-file-db#readme"
 }

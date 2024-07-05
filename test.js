@@ -1,4 +1,5 @@
 const FlatFileDB = require('./db');
+const path = require('path');  // Add this line
 const db = new FlatFileDB(path.join(__dirname, 'database.json'));
 
 try {
