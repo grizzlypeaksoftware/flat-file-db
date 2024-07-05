@@ -108,5 +108,3 @@ try {
 
 This project is licensed under the MIT License.
 ```
-
-This `README.md` provides an overview of the FlatFileDB module, instructions for installation, and examples of how to use the various methods provided by the module.
