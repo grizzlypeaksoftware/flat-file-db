@@ -1,20 +1,16 @@
-# FlatFileDB
+### Updated `README.md`
 
-FlatFileDB is a simple Node.js module for a flat-file database. It uses JSON files to store data and provides basic CRUD (Create, Read, Update, Delete) operations.
+```markdown
+# Node FlatFileDB
+
+Node FlatFileDB is a simple Node.js module for a flat-file database. It uses JSON files to store data and provides basic CRUD (Create, Read, Update, Delete) operations.
 
 ## Installation
 
-1. Clone the repository or download the code.
-2. Navigate to the project directory.
+To install the package, use the following command:
 
 ```sh
-cd flat-file-db
-```
-
-3. Initialize the project and install dependencies.
-
-```sh
-npm init -y
+npm install node-flat-file-db
 ```
 
 ## Usage
@@ -24,7 +20,7 @@ npm init -y
 First, require the module and initialize it with the path to the database file.
 
 ```js
-const FlatFileDB = require('./db');
+const FlatFileDB = require('node-flat-file-db');
 const path = require('path');
 const db = new FlatFileDB(path.join(__dirname, 'database.json'));
 ```
@@ -76,10 +72,10 @@ console.log('All records:', allRecords);
 
 ## Example
 
-Here's a full example of how to use FlatFileDB:
+Here's a full example of how to use Node FlatFileDB:
 
 ```js
-const FlatFileDB = require('./db');
+const FlatFileDB = require('node-flat-file-db');
 const path = require('path');
 const db = new FlatFileDB(path.join(__dirname, 'database.json'));
 
